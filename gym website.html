@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: white;
+            margin: 0%;
+            padding: 0%;
+            background: url('gym img/gym.jpg');
+        }
+
+        .left {
+            margin: 6px;
+            width: 34px;
+            display: inline-block;
+            position: absolute;
+
+        }
+
+        .left img {
+            filter: invert(100%);
+            width: 70px;
+        }
+
+
+        .middle {
+            margin: 0px 130px;
+            width: 35%;
+            height: 44px;
+            display: inline-block;
+            top: 20px;
+            position: relative;
+
+
+        }
+
+        .middle li {
+            float: left;
+            list-style: none;
+            margin: 0px 30px;
+            color: red;
+            font-size: 18px;
+
+        }
+
+        .middle li:hover,
+        .middle li.active {
+            color: yellow;
+        }
+
+        .right {
+            margin: 0 px 12px;
+            width: 20%;
+            height: 44px;
+            display: inline-block;
+            position: absolute;
+            top: 12px;
+
+        }
+
+
+
+        .btn {
+            margin: 0px 12px;
+            padding: 8px;
+            border-radius: 9px;
+            background-color: black;
+            color: #7868e6;
+            border: 2px solid white;
+        }
+
+        .btn:hover {
+            background-color: #e4bad4;
+        }
+
+        .middle-container {
+            background-color: black;
+            border: 2px solid white;
+
+
+            width: 25%;
+            height: 300px;
+            padding: 40px;
+
+            position: relative;
+            top: 80px;
+            left: 100px;
+
+        }
+
+        .middle-container p {
+            text-align: center;
+        }
+
+        .form input {
+            display: block;
+            font-family: 'Baloo Bhai', cursive;
+
+            font-size: 15px;
+            border: 2px solid black;
+
+            margin: 4px auto;
+            width: 300px;
+            text-align: center;
+            padding: 3px 3px;
+            border-radius: 8px;
+            color: grey;
+
+
+        }
+
+        .middle-container button {
+            display: block;
+            width: 300px;
+            margin: 20px auto;
+            font-size: 15px;
+            font-family: 'Baloo Bhai', cursive;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="left">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdzotr2aIfFbFYvJvCWTQilqRUZ1O6ZHIXVAbfxD4nVxkzSvyPEKZtHT4Ue2_ahV-hyiA&usqp=CAU.jpg">
+        </div>
+        <div class="middle">
+            <li class="active">HOME</li>
+
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>CONTACT</li>
+        </div>
+        <div class="right">
+            <button class="btn ">CALL US </button>
+            <button class="btn">EMAIL US</button>
+        </div>
+
+    </div>
+    <div class="middle-container">
+        <p>JOIN THE BEST GYM OF DELHI NOW 🦾🏋️‍♀️</p>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="name " placeholder="Enter your name">
+                <input type="name " placeholder="Enter your name">
+                <input type="name " placeholder="Enter your name">
+                <input type="name " placeholder="Enter your name">
+                <button class="btn">Submit</button>
+
+
+            </div>
+
+
+
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
